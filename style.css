@@ -1,0 +1,78 @@
+/* Toàn bộ trang */
+body{
+    background-image: url("/C02/img/background.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+/* Bao chứa from */
+fieldset{
+    margin-bottom: 29px;
+    margin-left: 122px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Tiêu đề */
+fieldset legend
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Thẻ nhập của toàn bộ form */
+fieldset aside p input{
+    height: 24px;
+    margin-top: 5px;
+    float: right;
+    width: 65%;
+}
+
+/* Thẻ chọn ngành nghề */
+fieldset aside p select{
+    height: 28px;
+    width: 66%;
+    float: right;
+}
+/* Thẻ cha của từng trường dữ liệu  */
+fieldset aside p{
+    line-height: 37px;
+    font-size: 22px;
+    margin: 23px;
+}
+/* Thẻ chọn giới tính */
+fieldset aside p input#gender{
+    margin-left: 27px;
+    float: none;
+    width: 45px;
+}
+
+
+/* Ảnh logo trường */
+fieldset aside img#school{
+    width: 620px;
+    height: 479px;
+    mix-blend-mode: color-burn;
+}
+
+/* Ảnh icon  */
+fieldset aside p img#contact{
+    height: 170px;
+    width: 100%;
+}
+
+
+/* Kí tự miêu tả trường bắt buộc*/
+fieldset aside p label span{
+    color: brown;
+}
+
+
+/* Thẻ submit */
+p#submit{
+    padding-left: 47%;
+    width: 7%;
+}
+p#submit input{
+   background-color: brown;
+}
